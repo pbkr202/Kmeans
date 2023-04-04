@@ -1,0 +1,62 @@
+TestCase 1
+
+Input : 
+k=3 ,
+points = {
+        {2.0, 3.0, 1},
+        {4.0, 2.0, 1},
+        {2.0, 1.0, 1},
+        {10.0, 12.0, 1},
+        {8.0, 11.0, 1},
+        {10.0, 10.0, 1}
+    }
+    
+Output :
+Point 0 is in cluster 0
+Point 1 is in cluster 0
+Point 2 is in cluster 2
+Point 3 is in cluster 1
+Point 4 is in cluster 1
+Point 5 is in cluster 1
+
+
+
+
+TestCase 2
+
+Input : 
+k=2 ,
+points = {
+        {2.0, 3.0, 1},
+        {4.0, 2.0, 1},
+        {2.0, 1.0, 1},
+        {10.0, 12.0, 1},
+        {8.0, 11.0, 1},
+        {10.0, 10.0, 1}
+    }
+    
+Output :
+Point 0 is in cluster 0
+Point 1 is in cluster 0
+Point 2 is in cluster 0
+Point 3 is in cluster 1
+Point 4 is in cluster 1
+Point 5 is in cluster 1
+
+
+TestCase 3
+
+Input : 
+k=3 ,
+points = {
+        {2.0, 3.0, 1},
+        {4.0, 2.0, 1},
+        {2.0, 1.0, 1},
+        {10.0, 12.0, 1}
+      }
+      
+ Output:
+Point 0 is in cluster 0
+Point 1 is in cluster 1
+Point 2 is in cluster 2
+
